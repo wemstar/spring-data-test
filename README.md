@@ -1,6 +1,8 @@
 # spring-data-test
 Przykład użycia Spring Data Rest
-#Budowa
+##Budowa
 gradlew.bat build
-#Uruchomienie
+##Uruchomienie
 gradlew.bat bootRun
+##Efekt
+Tomcat na porcie 8889
