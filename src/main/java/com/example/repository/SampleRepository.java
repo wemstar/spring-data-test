@@ -13,5 +13,5 @@ import org.springframework.hateoas.Resource;
 @RepositoryRestResource(collectionResourceRel = "sample", path = "sample")
 public interface SampleRepository extends PagingAndSortingRepository<SampleEntity,Long> {
 
-    Resource<SampleEntity> findByExternalId(@Param("externalId") Long externalId);
+    SampleEntity findByExternalId(@Param("externalId") Long externalId);
 }
